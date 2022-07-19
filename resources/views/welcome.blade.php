@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        {{-- OG tags --}}
+        <meta property="og:title" content={{ config('app.name', 'Ho Wan Loi') }}/>
+        <meta property="og:description" content="Alle ingrediënten zijn van topkwaliteit en zijn vers bereid. Het gebruik van kruiden is erg persoonsgebonden. U zult de verfijnde smaak van de kok vast proeven in de gerechten." />
+        <meta property="og:image" content="/img/header.jpeg" />
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <script src="{{ asset('js/app.js') }}" defer></script>
         <title>{{ config('app.name', 'Ho Wan Loi') }}</title>

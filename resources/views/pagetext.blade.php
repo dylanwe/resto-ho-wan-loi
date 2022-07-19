@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <script src="{{ asset('js/app.js') }}" defer></script>
+    {{-- OG tags --}}
+    <meta property="og:title" content={{ $page_text->title . ' | ' .  config('app.name', 'Ho Wan Loi') }}/>
+    <meta property="og:description" content="Alle ingrediënten zijn van topkwaliteit en zijn vers bereid. Het gebruik van kruiden is erg persoonsgebonden. U zult de verfijnde smaak van de kok vast proeven in de gerechten." />
+    <meta property="og:image" content="/img/header.jpeg" />
     <title>{{ $page_text->title . ' | ' .  config('app.name', 'Ho Wan Loi') }}</title>
 </head>
 
